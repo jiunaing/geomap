@@ -5,3 +5,5 @@ conda info --envs
 jupyter notebook
 conda install -c conda-forge folium matplotlib mapclassify
 conda install 
+pip freeze > requirements.txt
+pip list --format=freeze > requirements.txt
