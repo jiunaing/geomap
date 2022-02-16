@@ -1,0 +1,7 @@
+conda activate /Users/yeapjiunaing/Desktop/ml-course/env
+idle3
+pip -V
+conda info --envs
+jupyter notebook
+conda install -c conda-forge folium matplotlib mapclassify
+conda install 
