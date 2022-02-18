@@ -1,9 +1,15 @@
-conda activate /Users/yeapjiunaing/Desktop/ml-course/env
+
 idle3
 pip -V
 conda info --envs
 jupyter notebook
+conda create -n helloWebEnv python
+conda info --envs
+conda activate /Users/yeapjiunaing/Desktop/ml-course/env
 conda install -c conda-forge folium matplotlib mapclassify
 conda install 
 pip freeze > requirements.txt
 pip list --format=freeze > requirements.txt
+
+===
+python3 -m venv web3
